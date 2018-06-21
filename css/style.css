@@ -1,0 +1,64 @@
+body{
+ background: #333;
+ color: #fff;
+}
+
+.navbar{
+  border-bottom: #00e8d6 3px solid;
+  opacity: 0.8;
+}
+
+.nav-link{
+  font-size: 17px;
+  margin-right: 13px;
+}
+
+#home-section{
+  background: url('../img/home.jpg') no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 550px;
+}
+
+.home-inner {
+  padding-top: 100px;
+}
+
+.dark-overlay {
+  background-color: rgba(0,0,0,0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 550px;
+}
+
+.card-form{
+  opacity: 0.8;
+}
+
+.fa, #createcheck {
+  color: #00e8d6;
+  background: #fff;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 30px;
+}
+
+.logo{
+  height:65px;
+  width: 150px;
+}
+
+#explorecheck{
+  color:#fff;
+  background: #333;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 30px;
+}
+
+#explore-image-column{
+  height: 320px;
+  width: 450px;
+}
